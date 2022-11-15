@@ -4,12 +4,12 @@
 }
 
 .clear {
-  border: 1px solid black;
+  border: 1px solid black !important;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  padding: 6px 10px;
-  font-size: 1.1rem;
+  padding: 6px 14px;
+  font-size: 1.2rem;
   border-radius: 5px;
   margin-top: 10px;
   margin-left: 10px;
@@ -30,7 +30,7 @@
 
 .diff {
   margin: 10px 25px;
-  box-shadow: 10px 10px rgb(39, 39, 39);
+  box-shadow: 0 1px 1px hsla(0deg, 0%, 0%, 0.075), 0 2px 2px hsla(0deg, 0%, 0%, 0.075), 0 4px 4px hsla(0deg, 0%, 0%, 0.075), 0 8px 8px hsla(0deg, 0%, 0%, 0.075), 0 16px 16px hsla(0deg, 0%, 0%, 0.075);
 }
 
 .cliff {
@@ -40,13 +40,14 @@
 
 .card {
   background: linear-gradient(to right bottom, rgb(220, 239, 245), white);
-  border: 1px solid black;
+  border: 1px solid rgb(180, 180, 180);
 }
 .card .card-title {
   font-size: 1.9rem;
 }
 .card .card-text ul li {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+  color: rgb(47, 47, 47);
 }
 .card .card-text ul li:nth-child(3) {
   color: rgb(44, 79, 254);
