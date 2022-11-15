@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-#clear {
+.clear {
   border: 1px solid black;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -17,7 +17,7 @@
   transition: all 0.3s ease;
   cursor: pointer;
 }
-#clear:hover {
+.clear:hover {
   transform: translateY(-3px) translateX(-3px);
   transition: all 0.3s ease;
   box-shadow: 4px 4px rgba(33, 33, 33, 0.93);
