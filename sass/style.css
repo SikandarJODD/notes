@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.diff {
+  margin: 10px 25px;
+  box-shadow: 10px 10px rgb(39, 39, 39);
+}
+
+.cliff {
+  margin: 15px 15px;
+  box-shadow: 4px 6px rgb(66, 156, 253);
+}
+
+.card {
+  background: linear-gradient(to right bottom, rgb(220, 239, 245), white);
+  border: 1px solid black;
+}
+.card .card-title {
+  font-size: 1.9rem;
+}
+.card .card-text ul li {
+  font-size: 1.3rem;
+}
+.card .card-text ul li:nth-child(3) {
+  color: rgb(44, 79, 254);
+}
+
+.another div {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.another form label {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.another form input {
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(104, 104, 104);
+  height: 33px;
+  padding: 5px;
+}
+
+.mint {
+  min-height: 63vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mint .card {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: rgba(0, 13, 41, 0.9176470588);
+}
+.mint .card .card-title {
+  color: rgb(33, 175, 252);
+}
+.mint .card .card-text {
+  color: rgb(244, 244, 244);
+}/*# sourceMappingURL=style.css.map */
